@@ -1,0 +1,39 @@
+.datetime-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    font-size: 16px;
+    color: #fafafa;
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px white;
+    margin: 0 auto;
+    border-radius: var(--border-radius);
+}
+
+.clock-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 23px;
+}
+
+.datetime-display.time-display-morning {
+    background: linear-gradient(to right, #E0AAFF, #C77DFF);
+}
+
+.datetime-display.time-display-afternoon {
+    background: linear-gradient(to right, #9D4EDD, #7B2CBF);
+}
+
+.datetime-display.time-display-evening {
+    background: linear-gradient(to right, #5A189A, #3C096C);
+}
+
+.datetime-display.time-display-night {
+    background: linear-gradient(to right, #240046, #10002B);
+}

@@ -1,0 +1,29 @@
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    z-index: 2;
+}
+
+.navigation-list {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-list li {
+    display: inline;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.navigation-button {
+    border: none;
+    margin: 0 auto;
+    padding: 5px
+}
